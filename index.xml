@@ -6,7 +6,17 @@
     <description>Recent content on Fathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Sep 2022 19:33:59 +0700</lastBuildDate><atom:link href="http://fathxn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Oct 2022 19:44:18 +0700</lastBuildDate><atom:link href="http://fathxn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Akhirnya deploy juga ke Github</title>
+      <link>http://fathxn.github.io/blog/deploy/</link>
+      <pubDate>Fri, 07 Oct 2022 19:44:18 +0700</pubDate>
+      
+      <guid>http://fathxn.github.io/blog/deploy/</guid>
+      <description>Sebenarnya sudah dari kemarin-kemarin ingin deploy blog ini ke GitHub tapi karena merasa masih kurang puas dengan segala utak-atik yang saya lakukan terhadap blog ini jadi tertunda deh. Tapi disisi lain juga sudah bingung apalagi yang mau di utak-atik, akhirnya sempat saya tinggalkan blog ini untuk beberapa hari karena pekerjaan juga.
+Setelah beberapa hari berlalu dengan kesibukan, akhirnya yasudah lah deploy aja dulu daripada tidak tau dan bingung mau diapakan lagi blog ini yakan &amp;hellip;</description>
+    </item>
+    
     <item>
       <title>Resume</title>
       <link>http://fathxn.github.io/resume/</link>

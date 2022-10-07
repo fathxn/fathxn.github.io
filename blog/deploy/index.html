@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Akhirnya deploy juga ke Github - Fathan</title>
+<link rel="stylesheet" href="/css/style.css"></link>
+    </head>
+    <body><section class="section">
+    <header class="header">
+        <div class="container blogTitle">
+            <a href="/"><img class="img-header" src="/img/logo-blog.png"></a>
+            
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="/resume">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+</section><div id="content">
+<article class="article">
+    <div class="container">
+        <div class="single">
+            <div class="judulPost">Akhirnya deploy juga ke Github</div>
+            <div class="isiPost"><p>Sebenarnya sudah dari kemarin-kemarin ingin deploy blog ini ke GitHub tapi karena merasa masih kurang puas dengan segala utak-atik yang saya lakukan terhadap blog ini jadi tertunda deh. Tapi disisi lain juga sudah bingung apalagi yang mau di utak-atik, akhirnya sempat saya tinggalkan blog ini untuk beberapa hari karena pekerjaan juga.</p>
+<p>Setelah beberapa hari berlalu dengan kesibukan, akhirnya yasudah lah deploy aja dulu daripada tidak tau dan bingung mau diapakan lagi blog ini yakan &hellip;</p>
+<p>Cari tutorial sana sini cara deploy atau host Hugo ke GitHub dan ketemulah tutorialnya dengan step-by-step yang clear dan mudah dipahami oleh saya yang masih awam dan membuat blog Hugo ini ter-deploy dengan lancar ke GitHub.</p>
+<p>Ada pun step-by-step nya berikut ini:</p>
+<ol>
+<li>Pertama bikin repository dulu di akun GitHub dengan nama <strong>username.github.io</strong>, ini akan membuat repository sekaligus untuk GitHub pages kamu nanti yang dapat dikunjungi, jangan lupa ganti <strong>username</strong> dengan username GitHub kamu dan <strong>jangan centang README.md</strong></li>
+<li>Build blog Hugo nya dulu dengan perintah <code>hugo -v</code></li>
+<li>Akan ada folder baru bernama <strong>public</strong> dan masuk ke folder tersebut dengan perintah <code>cd public</code></li>
+<li>Kemudian ketik perintah <code>git init</code></li>
+<li>Lalu ketik perintah <code>git remote add origin https://github.com/username/username.github.io.git</code>, jangan lupa ganti <strong>username</strong> dengan username GitHub kamu</li>
+<li>Setelah itu tinggal ketik perintah <code>git add .</code> → <code>git commit -m &quot;pesan commit kamu</code> → <code>git push -u origin master</code></li>
+<li>Sudah deh tinggal tunggu beberapa menit dan buka deh GitHub pages kamu di <strong>username.github.io</strong></li>
+</ol>
+<p>Simpel banget bukan? Hanyak ketik perintah ini itu dan blog Hugo sudah ter-deploy dengan lancar, awalnya saya kira bakalan sulit karena ya waktu itu sempat gagal karena tidak tau kalau harus di render/build dulu agar menjadi file static yang ada di folder <strong>public</strong>. Cheers&hellip; 🥂😁</p>
+</div>
+            <div class="tglPublish">Published 7 Oct 2022 — 1 min read</div>
+        </article>
+        </div>
+    </div>
+
+            </div><footer>
+    <div class="container credit">
+        <small>Copyright &copy; 2022 - Built with Hugo</small>
+    </div>
+</footer></body>
+</html>

@@ -5,10 +5,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
     scroll-padding-top: 2rem;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    padding-inline-start: 10px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding-left:1em;
+    margin-bottom: 5px;
 }
 
 :root{
@@ -127,6 +139,7 @@ code {
     border-radius: 0.3rem;
     padding: 4px 5px 5px;
     white-space: nowrap;
+    font-size: 12px;
 }
 
 pre code {
@@ -147,7 +160,7 @@ pre {
 
 .judulPost {
     margin-bottom: 25px;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 500;
     color: #333;
     position: relative;
@@ -179,6 +192,7 @@ p {
 
 .titleOnly{
     margin: 10px 0;
+    list-style: none;
 }
 
 .intro {
