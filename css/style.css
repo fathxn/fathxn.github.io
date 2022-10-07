@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+:root{
+    --main-color: #FFFFFF;
+    --second-color: #333333;
+    --body-color: #EEEEEE;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+a {
+    color: #007bff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 10px;
+    color: var(--second-color);
+}
+
+.section {
+    padding:1rem 9.5rem;
+    margin-top:50px;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.blogTitle {
+    text-align: center!important;
+    padding-bottom: 30px;
+}
+
+.img-header{
+    width: 100px;
+}
+
+img {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nav{
+    list-style:none;
+    margin:10;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+    margin: 20px;
+    padding: 5px;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+    font-weight: 500;
+    font-size: 14px;
+    color:#333;
+}
+
+.active {
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.nav a:hover{
+    color:black;
+}
+
+.article {
+    width: 655px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    background-color: #fff;
+    margin: auto;
+    width: 50%;
+    padding: 0 50px 0 50px;
+}
+
+.main {
+    margin-bottom: 20px;
+}
+
+.line {
+    font-size: 20px;
+    position: relative;
+    margin: 0 0 10px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 50px;
+}
+
+.line:before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    background: black;
+    width: 25%;
+    height: 1px;
+}
+
+code {
+    background-color: #333;
+    color: #f8f8f2;
+    border-radius: 0.3rem;
+    padding: 4px 5px 5px;
+    white-space: nowrap;
+}
+
+pre code {
+  white-space: inherit;
+}
+
+pre {
+  background-color: #333;
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 0.3em;
+}
+
+/** single styling **/
+.single {
+    margin: 20px 0 20px 0;
+}
+
+.judulPost {
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #333;
+    position: relative;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 50px;
+}
+
+.isiPost {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.tglPublish {
+    font-size: 14px;
+    color: #868e96!important;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.dateTime {
+    font-size: 12px;
+    color: #868e96!important;
+    margin-right: 10px;
+}
+
+.titleOnly{
+    margin: 10px 0;
+}
+
+.intro {
+    margin: 30px 0 10px 0;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.credit {
+    margin: 20px 0 20px 0;
+    text-align: center!important;
+}

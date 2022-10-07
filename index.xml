@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fathan</title>
+    <link>http://fathxn.github.io/</link>
+    <description>Recent content on Fathan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Sep 2022 19:33:59 +0700</lastBuildDate><atom:link href="http://fathxn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>http://fathxn.github.io/resume/</link>
+      <pubDate>Thu, 29 Sep 2022 10:08:07 +0700</pubDate>
+      
+      <guid>http://fathxn.github.io/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://fathxn.github.io/about/</link>
+      <pubDate>Wed, 21 Sep 2022 20:01:23 +0700</pubDate>
+      
+      <guid>http://fathxn.github.io/about/</guid>
+      <description>Hallo namaku Fathan, ya sekarang usiaku sudah cukup tua unutk memulai kembali hobi lama ini, yaitu blogging.</description>
+    </item>
+    
+    <item>
+      <title>Post pertama di blog baru menggunakan Hugo</title>
+      <link>http://fathxn.github.io/blog/first-post/</link>
+      <pubDate>Wed, 21 Sep 2022 19:33:59 +0700</pubDate>
+      
+      <guid>http://fathxn.github.io/blog/first-post/</guid>
+      <description>Jadi setelah sekian lama akhirnya kembali menulis lagi di blog baru, sebelumnya saya punya blog yang isi kontennya adalah tips/trik dan tutorial tekno gitu, dan artikel terakhir kali yang saya tulis di publish pada bulan Juni 2019, jadi sudah 3 tahun saya tidak mengurus blog lama saya tersebut, bahkan kini domain TLDnya pun sudah lama expired dan kembali ke .blogspot.com, dan sejak itu saya sudah tidak memperpanjang kembali domain tersebut.</description>
+    </item>
+    
+  </channel>
+</rss>
